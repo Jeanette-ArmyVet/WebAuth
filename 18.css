@@ -1,0 +1,97 @@
+ /* horizontal navigation bar */ 
+
+h1 {
+font-family: "Courier New", Courier, monospace;
+color: #ebe6e4;
+font-size: 36px;
+font-weight: bold;
+margin-bottom: -15px;
+}
+body {
+background-color: #1e4343;
+margin-top: 2%;
+margin-right:10%;
+margin-bottom: 2%;
+margin-left: 2%;
+color: #ebe6e4;
+font-size: 18px;
+font-weight: bold;
+font-family: "Courier New", Courier, monospace;
+}
+.navigation {
+margin-top: 10px;
+background-color: #A66B37;
+z-index: 25;
+}
+.content {
+position: absolute;
+padding: 5% 0 20px 5%;
+margin-top: 10px;
+z-index: 20;
+width: 75%;
+}
+.navigation ul {
+padding: 15px;
+margin: 0px auto 15px auto;
+border-top: 2px solid #000;
+border-bottom: 2px solid #000;
+text-align: center;
+}
+.navigation li {
+display: inline;
+margin: 0px 3px;
+line-height: 150%; 
+}
+.navigation a {
+color: #112626;
+text-transform: uppercase;
+text-decoration: none;
+padding: 6px 18px 5px 18px;
+}
+.navigation a:hover, a.on {
+color: #ebe6e4;
+background-color: #112626;
+}
+/*set below code if you want to see where your boxes are prcisely
+* {
+   outline: 1px solid red !important;
+}*/
+.spec1 {
+font-weight: bold; 
+color: #9E3714;
+background: #ebe6e4;
+border: double #112626;
+}
+.spec2 {
+font-weight: bold; 
+color: #9E3714;
+margin: 2em;
+padding: 2em;
+border: double #112626;
+background: #ebe6e4;
+}
+/*poppies.jpg*/
+.floatbox {
+width: 220px;
+height: 420px;
+float: left;
+background-color: #3F2213;
+color: #C29527;
+padding: 1em;
+margin-right: 2em;
+border: solid #112626 3px;
+}
+/*sun.jpg*/
+.right {float: right;
+border: solid #112626 3px;
+}
+.flex-container {    
+display: flex;  
+flex-wrap: wrap;  
+align-items: center;  
+justify-content: center; 
+}
+.flex-container img {  
+width: 200px;  
+height: auto;  
+}
